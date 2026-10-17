@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 5 task 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Interactive Buttons</h1>
+
+    <p id="targetText">MERN Full Stack Development</p>
+
+    <div class="controls">
+        <button id="btnRed" onclick="changeColor('red')">RED</button>
+        <button id="btnGreen" onclick="changeColor('green')">GREEN</button>
+        <button id="btnBlue" onclick="changeColor('blue')">BLUE</button>
+    </div>
+
+    <div class="controls">
+        <label for="fontSelect">Font Family:</label>
+        <select id="fontSelect" onchange="changeFontFamily(this.value)">
+            <option value="'Public Sans', sans-serif">Public Sans</option>
+            <option value="'Courier New', Courier, monospace">Courier New</option>
+            <option value="Arial, sans-serif">Arial</option>
+            <option value="Georgia, serif">Georgia</option>
+        </select>
+    </div>
+
+    <div class="controls">
+        <button id="increaseBtn" onclick="changeFontSize(2)">A+</button>
+        <button id="decreaseBtn" onclick="changeFontSize(-2)">A-</button>
+    </div>
+
+    <div class="controls">
+        <button id="boldBtn" onmouseover="setStyle('bold')" onmouseout="resetStyle('bold')">Bold</button>
+        <button id="italicBtn" onmouseover="setStyle('italic')" onmouseout="resetStyle('italic')">Italic</button>
+        <button id="underlineBtn" onmouseover="setStyle('underline')" onmouseout="resetStyle('underline')">Underline</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
