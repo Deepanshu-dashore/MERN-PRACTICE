@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 2 Day 3 - Asynchronous JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Week 2 Day 3: Asynchronous JS & Fetch</h2>
+
+    <div class="tasks-container">
+        <!-- Task 1 -->
+        <div class="task-item">
+            <h3>Task 1: Simulate API with setTimeout</h3>
+            <button onclick="runFakeApi()">Run API Simulation</button>
+            <div class="output" id="out1">Click button to simulate API...</div>
+        </div>
+
+        <!-- Task 2 -->
+        <div class="task-item">
+            <h3>Task 2: Promise Example</h3>
+            <button onclick="runPromise()">Test Promise</button>
+            <div class="output" id="out2">Click button to run Promise...</div>
+        </div>
+
+        <!-- Task 3 -->
+        <div class="task-item">
+            <h3>Task 3: Async/Await with Fetch</h3>
+            <button onclick="loadPosts()">Load Posts</button>
+            <div class="output" id="out3">Click button to fetch posts...</div>
+        </div>
+
+        <!-- Mini Challenge -->
+        <div class="task-item">
+            <h3>Mini Challenge: Weather Fetcher</h3>
+            <button onclick="fetchWeather()">Fetch Delhi Weather</button>
+            <div class="output" id="out4">Click button to fetch live weather...</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
