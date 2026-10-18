@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 2 Day 4 - User Directory</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>User Directory (Fetch API)</h2>
+
+    <div class="controls">
+        <button id="singleBtn" onclick="loadSingleUser()">Load Single User</button>
+        <button id="multipleBtn" onclick="loadMultipleUsers(6)">Refresh Users (Grid)</button>
+    </div>
+
+    <div id="usersContainer" class="user-grid">
+        <div class="loading">Click a button to load users...</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
