@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Public Sans", sans-serif;
+}
+
+body {
+    background-color: #f8f9fb;
+    color: #2d3748;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px;
+    gap: 25px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #191b94;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 480px;
+}
+
+.card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+}
+
+.card h3 {
+    font-size: 18px;
+    color: #1a202c;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #f1f5f9;
+    padding-bottom: 8px;
+}
+
+/* Counter */
+.counter-display {
+    font-size: 38px;
+    font-weight: 800;
+    color: #191b94;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: 1px solid #191b94;
+    background: #191b94;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+button.btn-reset {
+    background: #ffffff;
+    color: #64748b;
+    border-color: #cbd5e1;
+}
+
+/* Form Preview */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 12px;
+}
+
+label {
+    font-size: 13.5px;
+    color: #64748b;
+    font-weight: 500;
+}
+
+input {
+    padding: 10px 14px;
+    border: 1px solid #cbd5e0;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #191b94;
+}
+
+.preview-box {
+    margin-top: 15px;
+    background: #f8faff;
+    border: 1px dashed #c7d2fe;
+    border-radius: 8px;
+    padding: 14px;
+}
+
+.preview-box h4 {
+    font-size: 14px;
+    color: #191b94;
+    margin-bottom: 6px;
+}
+
+.preview-box p {
+    font-size: 13.5px;
+    color: #475569;
+}
