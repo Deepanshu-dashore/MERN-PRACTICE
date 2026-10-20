@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Public Sans", sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light Theme (Default) */
+.app-container.light {
+    background-color: #f8f9fb;
+    color: #2d3748;
+    min-height: 100vh;
+}
+
+.app-container.light header {
+    background: #191b94;
+    color: #ffffff;
+}
+
+.app-container.light .card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    color: #2d3748;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+}
+
+.app-container.light .theme-btn {
+    background: #ffffff;
+    color: #191b94;
+    border: 1px solid #ffffff;
+}
+
+/* Dark Theme */
+.app-container.dark {
+    background-color: #0f172a;
+    color: #f1f5f9;
+    min-height: 100vh;
+}
+
+.app-container.dark header {
+    background: #1e293b;
+    color: #ffffff;
+    border-bottom: 1px solid #334155;
+}
+
+.app-container.dark .card {
+    background: #1e293b;
+    border: 1px solid #334155;
+    color: #f1f5f9;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.app-container.dark .theme-btn {
+    background: #334155;
+    color: #f1f5f9;
+    border: 1px solid #475569;
+}
+
+nav {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.theme-btn {
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 13.5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.theme-btn:hover {
+    transform: scale(1.05);
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.card {
+    border-radius: 12px;
+    padding: 28px;
+}
+
+.card h2 {
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.card p {
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 14px;
+}
+
+.child-box {
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    background: rgba(125, 125, 125, 0.08);
+}
