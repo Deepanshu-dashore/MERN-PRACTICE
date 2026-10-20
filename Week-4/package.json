@@ -1,0 +1,10 @@
+{
+  "name": "week-4-hub",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm --prefix day-6-7 run dev",
+    "build": "npm --prefix day-6-7 run build",
+    "preview": "npm --prefix day-6-7 run preview"
+  }
+}
