@@ -1,0 +1,14 @@
+{
+  "name": "week-5-day-5-modular-mvc-api",
+  "version": "1.0.0",
+  "description": "Week 5 Day 5: Advanced Routing, Controllers, and Modular MVC API Architecture",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test_mvc.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5"
+  }
+}
