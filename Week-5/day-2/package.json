@@ -1,0 +1,16 @@
+{
+  "name": "week-5-day-2-npm-modules",
+  "version": "1.0.0",
+  "description": "Week 5 Day 2: npm and Modular Programming in Node.js",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "node main.js"
+  },
+  "keywords": ["nodejs", "npm", "modules", "commonjs"],
+  "author": "Dipanshu Dashore",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
