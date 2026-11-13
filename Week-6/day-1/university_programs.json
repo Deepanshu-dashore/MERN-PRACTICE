@@ -1,0 +1,92 @@
+[
+  {
+    "name": "B.Tech Computer Science and Engineering",
+    "department": "IT_CS",
+    "durationYears": 4,
+    "feePerYear": 65000,
+    "eligibility": "10+2 with Physics, Chemistry, Maths (min 50%)",
+    "seatsAvailable": 60,
+    "isActive": true
+  },
+  {
+    "name": "B.Tech Information Technology",
+    "department": "IT_CS",
+    "durationYears": 4,
+    "feePerYear": 60000,
+    "eligibility": "10+2 with Physics, Chemistry, Maths (min 50%)",
+    "seatsAvailable": 45,
+    "isActive": true
+  },
+  {
+    "name": "BCA (Bachelor of Computer Applications)",
+    "department": "IT_CS",
+    "durationYears": 3,
+    "feePerYear": 40000,
+    "eligibility": "10+2 in any stream with Maths/Computer Science",
+    "seatsAvailable": 80,
+    "isActive": true
+  },
+  {
+    "name": "MCA (Master of Computer Applications)",
+    "department": "IT_CS",
+    "durationYears": 2,
+    "feePerYear": 55000,
+    "eligibility": "BCA/B.Sc CS or graduation with Maths",
+    "seatsAvailable": 40,
+    "isActive": true
+  },
+  {
+    "name": "BBA (Bachelor of Business Administration)",
+    "department": "Management",
+    "durationYears": 3,
+    "feePerYear": 45000,
+    "eligibility": "10+2 in any stream (min 45%)",
+    "seatsAvailable": 90,
+    "isActive": true
+  },
+  {
+    "name": "MBA (Master of Business Administration)",
+    "department": "Management",
+    "durationYears": 2,
+    "feePerYear": 75000,
+    "eligibility": "Bachelor's degree in any discipline (min 50%)",
+    "seatsAvailable": 60,
+    "isActive": true
+  },
+  {
+    "name": "Executive MBA",
+    "department": "Management",
+    "durationYears": 1,
+    "feePerYear": 90000,
+    "eligibility": "Graduation + 2 years work experience",
+    "seatsAvailable": 30,
+    "isActive": true
+  },
+  {
+    "name": "B.Sc (Hons) Agriculture",
+    "department": "Agriculture",
+    "durationYears": 4,
+    "feePerYear": 50000,
+    "eligibility": "10+2 with PCB / PCM / Agriculture (min 50%)",
+    "seatsAvailable": 75,
+    "isActive": true
+  },
+  {
+    "name": "M.Sc Agronomy",
+    "department": "Agriculture",
+    "durationYears": 2,
+    "feePerYear": 58000,
+    "eligibility": "B.Sc Agriculture (min 55%)",
+    "seatsAvailable": 25,
+    "isActive": true
+  },
+  {
+    "name": "Diploma in Organic Farming",
+    "department": "Agriculture",
+    "durationYears": 1,
+    "feePerYear": 25000,
+    "eligibility": "10th or 10+2 from a recognized board",
+    "seatsAvailable": 50,
+    "isActive": true
+  }
+]
